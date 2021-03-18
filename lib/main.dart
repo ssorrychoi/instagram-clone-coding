@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:insta_clone_coding/home_page.dart';
 
+import 'constants/material_white.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -9,10 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        primarySwatch: white,
       ),
       home: HomePage(),
     );
