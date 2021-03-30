@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:insta_clone_coding/feed_screen.dart';
+import 'package:insta_clone_coding/constants/screen_size.dart';
+import 'package:insta_clone_coding/screens/feed_screen.dart';
+import 'package:insta_clone_coding/screens/profile_screen.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key}) : super(key: key);
@@ -24,11 +26,13 @@ class _HomePageState extends State<HomePage> {
     Container(color: Colors.blueAccent),
     Container(color: Colors.greenAccent),
     Container(color: Colors.deepOrangeAccent),
-    Container(color: Colors.deepPurpleAccent),
+    // Container(color: Colors.deepPurpleAccent),
+    ProfileScreen(),
   ];
 
   @override
   Widget build(BuildContext context) {
+    if (size == null) size = MediaQuery.of(context).size;
     return Scaffold(
       body: _screens[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
