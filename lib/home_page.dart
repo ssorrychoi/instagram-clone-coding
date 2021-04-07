@@ -1,7 +1,10 @@
+import 'package:app_settings/app_settings.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_clone_coding/constants/screen_size.dart';
+import 'package:insta_clone_coding/screens/camera_screen.dart';
 import 'package:insta_clone_coding/screens/feed_screen.dart';
 import 'package:insta_clone_coding/screens/profile_screen.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key}) : super(key: key);
@@ -21,6 +24,8 @@ class _HomePageState extends State<HomePage> {
 
   int _selectedIndex = 0;
 
+  GlobalKey<ScaffoldState> _key = GlobalKey<ScaffoldState>();
+
   List<Widget> _screens = [
     FeedScreen(),
     Container(color: Colors.blueAccent),
@@ -34,6 +39,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     if (size == null) size = MediaQuery.of(context).size;
     return Scaffold(
+      key: _key,
       body: _screens[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         items: btmNavItems,
@@ -48,8 +54,47 @@ class _HomePageState extends State<HomePage> {
   }
 
   void _onBtnItemClick(int value) {
-    setState(() {
-      _selectedIndex = value;
+    switch (value) {
+      case 2:
+        _openCamera();
+        break;
+      default:
+        setState(() {
+          _selectedIndex = value;
+        });
+    }
+  }
+
+  void _openCamera() async {
+    if (await checkIfPermissionGranted(context)) {
+      Navigator.push(
+          context, MaterialPageRoute(builder: (context) => CameraScreen()));
+    } else {
+      SnackBar snackBar = SnackBar(
+        content: Text('사진,파일,마이크 접근 허용 해주셔야 카메라 사용이 가능띠~'),
+        action: SnackBarAction(
+          label: 'OK',
+          onPressed: () {
+            _key.currentState.hideCurrentSnackBar();
+            AppSettings.openAppSettings();
+            // Scaffold.of(context).hideCurrentSnackBar();
+          },
+        ),
+      );
+      _key.currentState.showSnackBar(snackBar);
+      // Scaffold.of(context).showSnackBar(snackBar);
+    }
+  }
+
+  Future<bool> checkIfPermissionGranted(BuildContext context) async {
+    Map<Permission, PermissionStatus> status =
+        await [Permission.camera, Permission.microphone].request();
+    bool permitted = true;
+    status.forEach((permission, permissionStatus) {
+      if (!permissionStatus.isGranted) {
+        permitted = false;
+      }
     });
+    return permitted;
   }
 }
