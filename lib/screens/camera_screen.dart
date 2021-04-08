@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:insta_clone_coding/model/camera_state.dart';
 import 'package:insta_clone_coding/widgets/take_photo.dart';
+import 'package:provider/provider.dart';
 
 class CameraScreen extends StatefulWidget {
+  CameraState _cameraState = CameraState()..getReadyToTakePhoto();
+
   @override
   _CameraScreenState createState() => _CameraScreenState();
 }
@@ -15,55 +19,62 @@ class _CameraScreenState extends State<CameraScreen> {
   void dispose() {
     // TODO: implement dispose
     _pageController.dispose();
+    widget._cameraState.dispose();
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(title),
-      ),
-      body: PageView(
-        onPageChanged: (index) {
-          setState(() {
-            _currentIndex = index;
-            switch (index) {
-              case 0:
-                title = 'Gallery';
-                break;
-              case 1:
-                title = 'Photo';
-                break;
-              case 2:
-                title = 'Video';
-                break;
-            }
-          });
-        },
-        controller: _pageController,
-        children: [
-          Container(
-            color: Colors.red,
-          ),
-          TakePhoto(),
-          Container(
-            color: Colors.blue,
-          ),
-        ],
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        iconSize: 0,
-        selectedItemColor: Colors.black,
-        unselectedItemColor: Colors.black54,
-        selectedLabelStyle: TextStyle(fontWeight: FontWeight.bold),
-        items: [
-          BottomNavigationBarItem(icon: Icon(Icons.add), label: 'GALLERY'),
-          BottomNavigationBarItem(icon: Icon(Icons.add), label: 'PHOTO'),
-          BottomNavigationBarItem(icon: Icon(Icons.add), label: 'VIDEO')
-        ],
-        currentIndex: _currentIndex,
-        onTap: _onItemTapped,
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider<CameraState>.value(value: widget._cameraState),
+        // ChangeNotifierProvider(create: (context) => CameraState()),
+      ],
+      child: Scaffold(
+        appBar: AppBar(
+          title: Text(title),
+        ),
+        body: PageView(
+          onPageChanged: (index) {
+            setState(() {
+              _currentIndex = index;
+              switch (index) {
+                case 0:
+                  title = 'Gallery';
+                  break;
+                case 1:
+                  title = 'Photo';
+                  break;
+                case 2:
+                  title = 'Video';
+                  break;
+              }
+            });
+          },
+          controller: _pageController,
+          children: [
+            Container(
+              color: Colors.red,
+            ),
+            TakePhoto(),
+            Container(
+              color: Colors.blue,
+            ),
+          ],
+        ),
+        bottomNavigationBar: BottomNavigationBar(
+          iconSize: 0,
+          selectedItemColor: Colors.black,
+          unselectedItemColor: Colors.black54,
+          selectedLabelStyle: TextStyle(fontWeight: FontWeight.bold),
+          items: [
+            BottomNavigationBarItem(icon: Icon(Icons.add), label: 'GALLERY'),
+            BottomNavigationBarItem(icon: Icon(Icons.add), label: 'PHOTO'),
+            BottomNavigationBarItem(icon: Icon(Icons.add), label: 'VIDEO')
+          ],
+          currentIndex: _currentIndex,
+          onTap: _onItemTapped,
+        ),
       ),
     );
   }
