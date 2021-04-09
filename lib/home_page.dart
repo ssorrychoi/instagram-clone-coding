@@ -1,9 +1,12 @@
+import 'dart:io';
+
 import 'package:app_settings/app_settings.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_clone_coding/constants/screen_size.dart';
 import 'package:insta_clone_coding/screens/camera_screen.dart';
 import 'package:insta_clone_coding/screens/feed_screen.dart';
 import 'package:insta_clone_coding/screens/profile_screen.dart';
+import 'package:insta_clone_coding/screens/search_screen.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class HomePage extends StatefulWidget {
@@ -28,7 +31,7 @@ class _HomePageState extends State<HomePage> {
 
   List<Widget> _screens = [
     FeedScreen(),
-    Container(color: Colors.blueAccent),
+    SearchScreen(),
     Container(color: Colors.greenAccent),
     Container(color: Colors.deepOrangeAccent),
     // Container(color: Colors.deepPurpleAccent),
@@ -87,8 +90,12 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<bool> checkIfPermissionGranted(BuildContext context) async {
-    Map<Permission, PermissionStatus> status =
-        await [Permission.camera, Permission.microphone].request();
+    Map<Permission, PermissionStatus> status = await [
+      Permission.camera,
+      Permission.microphone,
+      Permission.mediaLibrary,
+      Platform.isIOS ? Permission.photos : Permission.storage,
+    ].request();
     bool permitted = true;
     status.forEach((permission, permissionStatus) {
       if (!permissionStatus.isGranted) {

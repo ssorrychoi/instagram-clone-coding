@@ -23,7 +23,7 @@ class _TakePhotoState extends State<TakePhoto> {
   @override
   Widget build(BuildContext context) {
     return Consumer<CameraState>(
-      builder: (context, CameraState cameraState, child) {
+      builder: (BuildContext context, CameraState cameraState, Widget child) {
         return Column(
           children: [
             Container(
@@ -99,8 +99,8 @@ class _TakePhotoState extends State<TakePhoto> {
           fit: BoxFit.fitWidth,
           child: Container(
               width: size.width,
-              height: size.width / _controller.value.aspectRatio,
-              child: CameraPreview(_controller)),
+              height: size.width / cameraState.controller.value.aspectRatio,
+              child: CameraPreview(cameraState.controller)),
         ),
       ),
     );

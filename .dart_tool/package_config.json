@@ -128,6 +128,12 @@
       "languageVersion": "2.2"
     },
     {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Volumes/JacobSSD/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "http",
       "rootUri": "file:///Volumes/JacobSSD/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.12.2",
       "packageUri": "lib/",
@@ -150,6 +156,24 @@
       "rootUri": "file:///Volumes/JacobSSD/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1",
       "packageUri": "lib/",
       "languageVersion": "2.5"
+    },
+    {
+      "name": "json_annotation",
+      "rootUri": "file:///Volumes/JacobSSD/flutter/.pub-cache/hosted/pub.dartlang.org/json_annotation-3.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "local_image_provider",
+      "rootUri": "file:///Volumes/JacobSSD/flutter/.pub-cache/hosted/pub.dartlang.org/local_image_provider-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "local_image_provider_platform_interface",
+      "rootUri": "file:///Volumes/JacobSSD/flutter/.pub-cache/hosted/pub.dartlang.org/local_image_provider_platform_interface-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
     },
     {
       "name": "matcher",
@@ -368,7 +392,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-04-08T16:48:53.643988Z",
+  "generated": "2021-04-09T02:12:04.299235Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }

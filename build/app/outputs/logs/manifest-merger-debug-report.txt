@@ -1,20 +1,31 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-48:12
-MERGED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-48:12
+ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-49:12
+MERGED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-49:12
+MERGED from [:local_image_provider] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/local_image_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:app_settings] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/app_settings/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:permission_handler] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:sqflite] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:camera] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-10:12
 MERGED from [:path_provider] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/2fec1f9990b9b5c16c61694d066a1554/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/f64fa5f7ac9fa4f53ef92dad5dfe2353/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/0f0610cdcf96e6cfa9529b6a3246e3f6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/ae13efc3dbae5c9ee58d4933337fcd21/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/5bfbe01745d2a29d4e7cd137b17143f4/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/b046e47c43be2b85609c7f97cccc722e/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/16c2aa160f52ee079d92e59ff0a723a2/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/5fdf5da548a469ca3cc39dc72a350a99/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/1403af03ba6e6e95b13bf5808de0f892/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/54d8b8735f730e83f07925f758092af3/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -22,7 +33,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jaesung/.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/79f9d65ef8b1c716310f666473a689a7/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/308ed24c1d1b2964b3d4344c134a01ab/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/2ca8bc49d3a28fb6fa3bddf429b143ba/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/fefdd83516e8eeb5097956f9d9af4b04/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/35bca835e72502cae5588ee7a59cf4b0/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/bce9999f881bb3993a5b24e08740cbbf/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/6b1132090a8a1ffc60b82d3452ca52ad/print-1.0.0/AndroidManifest.xml:17:1-22:12
 INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/debug/AndroidManifest.xml:1:1-7:12
@@ -32,11 +49,11 @@ INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/d
 		INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-49:12
 		INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:1-49:12
 		INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -46,66 +63,76 @@ MERGED from [:camera] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/cam
 MERGED from [:camera] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-65
 	android:name
 		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:3:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:4:22-77
 application
-ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:9:5-47:19
+ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:10:5-48:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/2fec1f9990b9b5c16c61694d066a1554/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/2fec1f9990b9b5c16c61694d066a1554/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
 MERGED from [androidx.core:core:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/308ed24c1d1b2964b3d4344c134a01ab/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/308ed24c1d1b2964b3d4344c134a01ab/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:11:13-47
-	android:icon
 		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:12:13-47
+	android:icon
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:13:13-47
 	android:name
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:10:13-61
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:11:13-61
 activity#com.example.insta_clone_coding.MainActivity
-ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:13:9-41:20
+ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:14:9-42:20
 	android:launchMode
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:15:17-47
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:16:17-47
 	android:hardwareAccelerated
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:18:17-51
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:19:17-51
 	android:windowSoftInputMode
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:19:17-59
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:20:17-59
 	android:configChanges
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:17:17-167
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:18:17-167
 	android:theme
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:16:17-51
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:17:17-51
 	android:name
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:14:17-45
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:15:17-45
 meta-data#io.flutter.embedding.android.NormalTheme
-ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:24:13-27:15
+ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:25:13-28:15
 	android:resource
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:26:21-58
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:27:21-58
 	android:name
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:25:21-76
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:26:21-76
 meta-data#io.flutter.embedding.android.SplashScreenDrawable
-ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:33:13-36:15
+ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:34:13-37:15
 	android:resource
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:35:21-67
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:36:21-67
 	android:name
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:34:21-85
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:35:21-85
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:37:13-40:29
+ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:38:13-41:29
 action#android.intent.action.MAIN
-ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:38:17-68
+ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:39:17-68
 	android:name
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:39:17-76
+ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:40:17-76
 	android:name
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:39:27-74
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:40:27-74
 meta-data#flutterEmbedding
-ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:44:9-46:36
+ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:45:9-47:36
 	android:value
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:46:17-34
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:47:17-34
 	android:name
-		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:45:17-48
+		ADDED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml:46:17-48
 uses-sdk
 INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml
 INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/main/AndroidManifest.xml
+MERGED from [:local_image_provider] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/local_image_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:local_image_provider] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/local_image_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:app_settings] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/app_settings/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:app_settings] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/app_settings/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:permission_handler] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/permission_handler/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
@@ -116,16 +143,36 @@ MERGED from [:camera] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/cam
 MERGED from [:camera] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] /Volumes/JacobSSD/git/flutter/insta_clone_coding/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/2fec1f9990b9b5c16c61694d066a1554/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/2fec1f9990b9b5c16c61694d066a1554/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/0986d0d74b8a2c7da8161f6370fc7744/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/f64fa5f7ac9fa4f53ef92dad5dfe2353/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/f64fa5f7ac9fa4f53ef92dad5dfe2353/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/f046f38cf99e9cbe4891b184ce64db19/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/28d99d5113324aa067757f8ca41a426f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/0f0610cdcf96e6cfa9529b6a3246e3f6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/0f0610cdcf96e6cfa9529b6a3246e3f6/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/e1bbce6b0d79e8479b70e7bd729bb743/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/615cab8ad6393a9c868d48761bbea666/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/ae13efc3dbae5c9ee58d4933337fcd21/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/ae13efc3dbae5c9ee58d4933337fcd21/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/5bfbe01745d2a29d4e7cd137b17143f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/5bfbe01745d2a29d4e7cd137b17143f4/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/b046e47c43be2b85609c7f97cccc722e/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/b046e47c43be2b85609c7f97cccc722e/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/ef0bef029ab70f5fb29de019060cf5fd/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/16c2aa160f52ee079d92e59ff0a723a2/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/16c2aa160f52ee079d92e59ff0a723a2/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/5fdf5da548a469ca3cc39dc72a350a99/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/5fdf5da548a469ca3cc39dc72a350a99/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/1403af03ba6e6e95b13bf5808de0f892/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/1403af03ba6e6e95b13bf5808de0f892/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/49ede1f7b9aa322a43288e9745adc2db/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
@@ -140,8 +187,20 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/jaesung/.gradle/cache
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/077300052aa327ee6fc9bbb0ce309b24/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/3a7eb299570065a3866b140e1a95969b/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/308ed24c1d1b2964b3d4344c134a01ab/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/308ed24c1d1b2964b3d4344c134a01ab/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/b80fad55c42c418cc210e235056767fb/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/2ca8bc49d3a28fb6fa3bddf429b143ba/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/2ca8bc49d3a28fb6fa3bddf429b143ba/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/fefdd83516e8eeb5097956f9d9af4b04/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/fefdd83516e8eeb5097956f9d9af4b04/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/35bca835e72502cae5588ee7a59cf4b0/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/35bca835e72502cae5588ee7a59cf4b0/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/bce9999f881bb3993a5b24e08740cbbf/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/bce9999f881bb3993a5b24e08740cbbf/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/6b1132090a8a1ffc60b82d3452ca52ad/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jaesung/.gradle/caches/transforms-2/files-2.1/6b1132090a8a1ffc60b82d3452ca52ad/print-1.0.0/AndroidManifest.xml:20:5-44
 INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/debug/AndroidManifest.xml
 INJECTED from /Volumes/JacobSSD/git/flutter/insta_clone_coding/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
