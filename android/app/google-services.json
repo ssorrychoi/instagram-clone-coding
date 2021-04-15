@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "168795328657",
+    "firebase_url": "https://instagram-clone-41405.firebaseio.com",
+    "project_id": "instagram-clone-41405",
+    "storage_bucket": "instagram-clone-41405.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168795328657:android:b813caa21d595e336a6f30",
+        "android_client_info": {
+          "package_name": "com.example.insta_clone_coding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168795328657-ub00nbko05ls23kn44sg6f4mqv6esm8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFc7SsCI0tftAOwxES8_j1xBXivJGdi6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168795328657-ub00nbko05ls23kn44sg6f4mqv6esm8t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "168795328657-gj2uhck554kh8ncp64jjadb79ffcmmba.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ssorrychoi.com"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
