@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:insta_clone_coding/model/fiirebase_auth_state.dart';
 import 'package:insta_clone_coding/screens/auth_screen.dart';
+import 'package:provider/provider.dart';
 
 class ProfileSideMenu extends StatelessWidget {
   final double menuWidth;
@@ -28,8 +30,9 @@ class ProfileSideMenu extends StatelessWidget {
               ),
               title: Text('Log out'),
               onTap: () {
-                Navigator.pushReplacement(context,
-                    MaterialPageRoute(builder: (context) => AuthScreen()));
+                Provider.of<FirebaseAuthState>(context,listen: false).signOut();
+                // Navigator.pushReplacement(context,
+                //     MaterialPageRoute(builder: (context) => AuthScreen()));
               },
             ),
           ],

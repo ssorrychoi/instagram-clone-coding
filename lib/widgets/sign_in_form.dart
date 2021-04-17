@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:insta_clone_coding/constants/common_size.dart';
 import 'package:insta_clone_coding/home_page.dart';
+import 'package:insta_clone_coding/model/fiirebase_auth_state.dart';
 import 'package:insta_clone_coding/widgets/sign_up_form.dart';
+import 'package:provider/provider.dart';
 
 class SignInForm extends StatefulWidget {
   @override
@@ -80,8 +82,9 @@ class _SignInFormState extends State<SignInForm> {
                 onPressed: () {
                   if (_formKey.currentState.validate()) {
                     print('validation Success!');
-                    Navigator.pushReplacement(context,
-                        MaterialPageRoute(builder: (context) => HomePage()));
+                    Provider.of<FirebaseAuthState>(context,listen: false).login(context,email: _emailController.text, password: _passwordController.text);
+                    // Navigator.pushReplacement(context,
+                    //     MaterialPageRoute(builder: (context) => HomePage()));
                   }
                 },
                 child: Text(
@@ -98,7 +101,9 @@ class _SignInFormState extends State<SignInForm> {
               ),
               orDivider(),
               FlatButton.icon(
-                  onPressed: () {},
+                  onPressed: () {
+                    Provider.of<FirebaseAuthState>(context,listen: false).login(context,email: _emailController.text, password: _passwordController.text);
+                  },
                   textColor: Colors.blue,
                   icon: ImageIcon(AssetImage('assets/images/facebook.png')),
                   label: Text('Login with Facebook'))

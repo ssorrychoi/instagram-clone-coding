@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:insta_clone_coding/constants/common_size.dart';
 import 'package:insta_clone_coding/home_page.dart';
+import 'package:insta_clone_coding/model/fiirebase_auth_state.dart';
+import 'package:provider/provider.dart';
 
 class SignUpForm extends StatefulWidget {
   @override
@@ -83,8 +85,9 @@ class _SignUpFormState extends State<SignUpForm> {
                 onPressed: () {
                   if (_formKey.currentState.validate()) {
                     print('validation Success!');
-                    Navigator.pushReplacement(context,
-                        MaterialPageRoute(builder: (context) => HomePage()));
+                    Provider.of<FirebaseAuthState>(context,listen: false).registerUser(context,email: _emailController.text, password: _passwordController.text);
+                    // Navigator.pushReplacement(context,
+                    //     MaterialPageRoute(builder: (context) => HomePage()));
                   }
                 },
                 child: Text(
