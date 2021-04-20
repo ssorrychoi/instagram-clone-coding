@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource>
+    <string name="app_name">ssorry_choi_clone</string>
+    <string name="facebook_app_id">762503274638188</string>
+    <string name="fb_login_protocol_scheme">fb762503274638188</string>
+</resource>

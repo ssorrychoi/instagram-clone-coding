@@ -82,7 +82,10 @@ class _SignInFormState extends State<SignInForm> {
                 onPressed: () {
                   if (_formKey.currentState.validate()) {
                     print('validation Success!');
-                    Provider.of<FirebaseAuthState>(context,listen: false).login(context,email: _emailController.text, password: _passwordController.text);
+                    Provider.of<FirebaseAuthState>(context, listen: false)
+                        .login(context,
+                            email: _emailController.text,
+                            password: _passwordController.text);
                     // Navigator.pushReplacement(context,
                     //     MaterialPageRoute(builder: (context) => HomePage()));
                   }
@@ -102,7 +105,8 @@ class _SignInFormState extends State<SignInForm> {
               orDivider(),
               FlatButton.icon(
                   onPressed: () {
-                    Provider.of<FirebaseAuthState>(context,listen: false).login(context,email: _emailController.text, password: _passwordController.text);
+                    Provider.of<FirebaseAuthState>(context, listen: false)
+                        .loginWithFacebook(context);
                   },
                   textColor: Colors.blue,
                   icon: ImageIcon(AssetImage('assets/images/facebook.png')),

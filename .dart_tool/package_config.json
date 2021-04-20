@@ -164,6 +164,12 @@
       "languageVersion": "2.6"
     },
     {
+      "name": "flutter_facebook_login",
+      "rootUri": "file:///Volumes/JacobSSD/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_login-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Volumes/JacobSSD/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -446,7 +452,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-04-15T16:13:35.422949Z",
+  "generated": "2021-04-20T15:20:30.497353Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }
