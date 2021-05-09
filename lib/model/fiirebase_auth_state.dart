@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_login/flutter_facebook_login.dart';
+import 'package:insta_clone_coding/repository/user_network_repository.dart';
 import 'package:insta_clone_coding/utils/simple_snackbar.dart';
 
 enum FirebaseAuthStatus { signout, progress, signin }
@@ -26,9 +27,9 @@ class FirebaseAuthState extends ChangeNotifier {
   }
 
   void registerUser(BuildContext context,
-      {@required String email, @required String password}) {
+      {@required String email, @required String password}) async {
     changeFirebaseAuthStatus(FirebaseAuthStatus.progress);
-    _firebaseAuth
+    AuthResult authResult = await _firebaseAuth
         .createUserWithEmailAndPassword(
             email: email.trim(), password: password.trim())
         .catchError((error) {
@@ -49,6 +50,15 @@ class FirebaseAuthState extends ChangeNotifier {
       SnackBar snackBar = SnackBar(content: Text(_message));
       Scaffold.of(context).showSnackBar(snackBar);
     });
+
+    _firebaseUser = authResult.user;
+    if (_firebaseUser == null) {
+      SnackBar snackBar = SnackBar(content: Text("Please try again later!"));
+      Scaffold.of(context).showSnackBar(snackBar);
+    } else {
+      await userNetworkRepository.attemptCreateUser(
+          userKey: _firebaseUser.uid, email: _firebaseUser.email);
+    }
   }
 
   void login(BuildContext context,
@@ -151,4 +161,6 @@ class FirebaseAuthState extends ChangeNotifier {
   }
 
   FirebaseAuthStatus get firebaseAuthStatus => _firebaseAuthStatus;
+
+  FirebaseUser get firebaseUser => _firebaseUser;
 }

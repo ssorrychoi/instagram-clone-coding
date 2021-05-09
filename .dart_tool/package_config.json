@@ -62,6 +62,24 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "cloud_firestore",
+      "rootUri": "file:///Volumes/JacobSSD/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.13.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "cloud_firestore_platform_interface",
+      "rootUri": "file:///Volumes/JacobSSD/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_platform_interface-1.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "cloud_firestore_web",
+      "rootUri": "file:///Volumes/JacobSSD/flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-0.1.1+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "collection",
       "rootUri": "file:///Volumes/JacobSSD/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.15.0-nullsafety.3",
       "packageUri": "lib/",
@@ -452,7 +470,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-04-20T15:20:30.497353Z",
+  "generated": "2021-05-09T15:03:18.778771Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }
