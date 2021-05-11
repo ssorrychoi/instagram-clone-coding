@@ -2,8 +2,10 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_clone_coding/constants/common_size.dart';
 import 'package:insta_clone_coding/constants/screen_size.dart';
+import 'package:insta_clone_coding/model/user_model_state.dart';
 import 'package:insta_clone_coding/screens/profile_screen.dart';
 import 'package:insta_clone_coding/widgets/rounded_avatar.dart';
+import 'package:provider/provider.dart';
 
 class ProfileBody extends StatefulWidget {
   final Function() onMenuChanged;
@@ -82,7 +84,7 @@ class _ProfileBodyState extends State<ProfileBody>
                           ),
                         ],
                       ),
-                      _userName(),
+                      _userName(context),
                       _userBio(),
                       _editProfileBtn(),
                       _tabButtons(),
@@ -251,11 +253,14 @@ class _ProfileBodyState extends State<ProfileBody>
     );
   }
 
-  Widget _userName() {
+  Widget _userName(BuildContext context) {
+    UserModelState userModelState = Provider.of<UserModelState>(context);
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: common_gap),
       child: Text(
-        'userName',
+        userModelState?.userModel == null
+            ? "EMPTY"
+            : Provider.of<UserModelState>(context).userModel.userName,
         style: TextStyle(fontWeight: FontWeight.bold),
       ),
     );

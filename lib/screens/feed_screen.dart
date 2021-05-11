@@ -1,7 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:insta_clone_coding/model/user_model_state.dart';
 import 'package:insta_clone_coding/repository/user_network_repository.dart';
 import 'package:insta_clone_coding/widgets/post.dart';
+import 'package:provider/provider.dart';
 
 class FeedScreen extends StatelessWidget {
   @override
@@ -42,7 +44,9 @@ class FeedScreen extends StatelessWidget {
                   AssetImage('assets/images/direct_message.png'),
                   color: Colors.black87,
                 ),
-                onPressed: () {})
+                onPressed: () {
+                  Provider.of<UserModelState>(context, listen: false).clear();
+                })
           ],
         ),
       ),
