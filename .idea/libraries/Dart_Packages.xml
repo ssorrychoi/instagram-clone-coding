@@ -219,6 +219,13 @@
             </list>
           </value>
         </entry>
+        <entry key="flutter_tags">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_tags-0.4.9+1/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="flutter_test">
           <value>
             <list>
@@ -574,6 +581,7 @@
       <root url="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_blurhash-0.5.0/lib" />
       <root url="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_cache_manager-2.1.2/lib" />
       <root url="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_login-3.0.0/lib" />
+      <root url="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_tags-0.4.9+1/lib" />
       <root url="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/http-0.12.2/lib" />
       <root url="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-3.1.4/lib" />
       <root url="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/image-2.1.19/lib" />

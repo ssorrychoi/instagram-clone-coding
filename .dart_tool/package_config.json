@@ -188,6 +188,12 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "flutter_tags",
+      "rootUri": "file:///Volumes/JacobSSD/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_tags-0.4.9+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Volumes/JacobSSD/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -470,7 +476,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-05-11T02:06:04.859244Z",
+  "generated": "2021-05-11T15:40:35.971711Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }

@@ -45,7 +45,7 @@ class FeedScreen extends StatelessWidget {
                   color: Colors.black87,
                 ),
                 onPressed: () {
-                  Provider.of<UserModelState>(context, listen: false).clear();
+                  // Provider.of<UserModelState>(context, listen: false).clear();
                 })
           ],
         ),

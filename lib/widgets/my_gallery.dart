@@ -3,6 +3,8 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:insta_clone_coding/model/gallery_state.dart';
+import 'package:insta_clone_coding/model/user_model_state.dart';
+import 'package:insta_clone_coding/repository/helper/generate_post_key.dart';
 import 'package:insta_clone_coding/screens/share_post_screen.dart';
 import 'package:local_image_provider/device_image.dart';
 import 'package:local_image_provider/local_image.dart';
@@ -36,17 +38,20 @@ class _MyGalleryState extends State<MyGallery> {
               Uint8List bytes = await localImage.getScaledImageBytes(
                   galleryState.localImageProvider, 0.3);
 
-              final String timeInMilliSec =
-                  DateTime.now().millisecondsSinceEpoch.toString();
+              final String postKey =
+                  getNewPostKey(Provider.of<UserModelState>(context).userModel);
               try {
-                final path = join((await getTemporaryDirectory()).path,
-                    '$timeInMilliSec.png');
+                final path =
+                    join((await getTemporaryDirectory()).path, '$postKey.png');
 
                 File imageFile = File(path)..writeAsBytesSync(bytes);
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => SharePostScreen(imageFile)));
+                        builder: (context) => SharePostScreen(
+                              imageFile,
+                              postKey: postKey,
+                            )));
               } catch (e) {
                 print(e);
               }
