@@ -131,8 +131,8 @@ class _TakePhotoState extends State<TakePhoto> {
   }
 
   void _attemptTakePhoto(CameraState cameraState, BuildContext context) async {
-    final String postKey =
-        getNewPostKey(Provider.of<UserModelState>(context).userModel);
+    final String postKey = getNewPostKey(
+        Provider.of<UserModelState>(context, listen: false).userModel);
 
     try {
       final path = join((await getTemporaryDirectory()).path, '$postKey.png');

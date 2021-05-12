@@ -5,6 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tags/flutter_tags.dart';
 import 'package:insta_clone_coding/constants/common_size.dart';
 import 'package:insta_clone_coding/constants/screen_size.dart';
+import 'package:insta_clone_coding/repository/image_network_repository.dart';
+import 'package:insta_clone_coding/widgets/my_progress_indicator.dart';
 
 class SharePostScreen extends StatelessWidget {
   final File imageFile;
@@ -23,7 +25,17 @@ class SharePostScreen extends StatelessWidget {
         title: Text('New Post'),
         actions: [
           FlatButton(
-            onPressed: () {},
+            onPressed: () async {
+              showModalBottomSheet(
+                context: context,
+                builder: (_) => MyProgressIndicator(),
+                isDismissible: false,
+                enableDrag: false,
+              );
+              await imageNetworkRepository.uploadImageNCreateNewPost(imageFile,
+                  postKey: postKey);
+              Navigator.pop(context);
+            },
             child: Text(
               'Share',
               textScaleFactor: 1.4,

@@ -164,6 +164,12 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "firebase_storage",
+      "rootUri": "file:///Volumes/JacobSSD/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-3.1.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///Volumes/JacobSSD/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -476,7 +482,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-05-11T15:40:35.971711Z",
+  "generated": "2021-05-12T02:35:04.589360Z",
   "generator": "pub",
   "generatorVersion": "2.10.5"
 }

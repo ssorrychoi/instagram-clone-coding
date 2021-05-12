@@ -38,8 +38,9 @@ class _MyGalleryState extends State<MyGallery> {
               Uint8List bytes = await localImage.getScaledImageBytes(
                   galleryState.localImageProvider, 0.3);
 
-              final String postKey =
-                  getNewPostKey(Provider.of<UserModelState>(context).userModel);
+              final String postKey = getNewPostKey(
+                  Provider.of<UserModelState>(context, listen: false)
+                      .userModel);
               try {
                 final path =
                     join((await getTemporaryDirectory()).path, '$postKey.png');

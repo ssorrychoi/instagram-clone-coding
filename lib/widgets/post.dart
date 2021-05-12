@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:insta_clone_coding/constants/common_size.dart';
 import 'package:insta_clone_coding/constants/screen_size.dart';
+import 'package:insta_clone_coding/repository/image_network_repository.dart';
 import 'package:insta_clone_coding/widgets/comment.dart';
 import 'package:insta_clone_coding/widgets/my_progress_indicator.dart';
 import 'package:insta_clone_coding/widgets/rounded_avatar.dart';
@@ -75,25 +76,35 @@ class Post extends StatelessWidget {
     );
   }
 
-  CachedNetworkImage _postImage() {
-    return CachedNetworkImage(
-      imageUrl: 'https://picsum.photos/id/$index/2000/2000',
-      placeholder: (context, url) {
-        return MyProgressIndicator(
-          containerSize: size.width,
-        );
-      },
-      imageBuilder: (context, imageProvider) {
-        return AspectRatio(
-          aspectRatio: 1,
-          child: Container(
-            decoration: BoxDecoration(
-                image:
-                    DecorationImage(image: imageProvider, fit: BoxFit.cover)),
-          ),
-        );
-      },
+  Widget _postImage() {
+    Widget progress = MyProgressIndicator(
+      containerSize: size.width,
     );
+
+    return FutureBuilder<dynamic>(
+        future: imageNetworkRepository
+            .getPostImageUrl('1620787690679_B1Hw8ypvdaNlcXsXTRTTpI6JzK22'),
+        builder: (context, snapshot) {
+          if (snapshot.hasData) {
+            return CachedNetworkImage(
+              imageUrl: snapshot.data.toString(),
+              placeholder: (context, url) {
+                return progress;
+              },
+              imageBuilder: (context, imageProvider) {
+                return AspectRatio(
+                  aspectRatio: 1,
+                  child: Container(
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: imageProvider, fit: BoxFit.cover)),
+                  ),
+                );
+              },
+            );
+          } else
+            return progress;
+        });
   }
 
   Widget _postHeader() {
